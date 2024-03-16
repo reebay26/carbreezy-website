@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="buy new cars| new car for sale |range rover price|honda civic for sale|toyota corolla price |buy new cars online | kia car price|new cars buy|new cars sale|buy new car online|cars buy |cars for sale near me|buy car online|car buying sites|online car sales|buy here pay here car lots near me|new car buy">
+  <meta name="description" content="Navigate a seamless car-buying experience. Explore our curated collection, find the perfect ride, and enjoy a breeze through the buying process.">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./phone.css">
+  <link rel="shortcut icon" href="./images/carbreezy_favicon-removebg-preview.png" type="image/x-icon">
+
+  <title>car Breezy</title>
+</head>
+
+<body>
+
+  
+ <!-- navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top text-light">
+  <div class="container-fluid">
+    <img src="./images/logo 1.png" style="height: 110px; width: 120px;" alt="">
+    <button class="navbar-toggler text-light " type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon  "></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bg-dark ">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./car.html">Cars</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light ms-3" href="./sell.html">Sell</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./buy.html">Buy</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./parts.html">Parts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./testimonial.html">Testimonial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./About.html">About</a>
+        </li>
+        </li>
+      </ul>
+      <button type="button" class="btn btn- ms-auto me-2 text-light bg-danger" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">Log
+        In</button>
+      <button type="button" class="btn btn- me-2 text-light bg-danger" data-bs-toggle="modal"
+        data-bs-target="#exampleModal1">Sign
+        Up</button>
+    </div>
+  </div>
+</nav>
+
+<!-- log in Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password">
+          </div>
+          <button id="login" type="submit" class="btn btn- text-light bg-danger">Log In</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  sign up Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="name" class="form-control" id="name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email2" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password2">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="password3">
+          </div>
+
+          <button id="signup" type="submit" class="btn btn- text-light bg-danger">Sign up</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- buy portion -->
+  <h1 style="font-weight: bold; cursor: pointer;  " class="text-center mb-2  mt-4 display-4">Buy
+    <span style="color: red;">Your </span><span>Car</span></h1>
+  <p class="text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorem aspernatur est praesentium sed corrupti repudiandae, sequi autem nemo.
+  </p>
+  <p id="para" class="text-center ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore dolorem sunt inciduntullam.</p>
+   <div id="buy-first" class="container mt-5 "> 
+    <div data-aos="fade-down" class="card mb-3" id="buybody" >
+      <div class="row g-0">
+        <div class="col-md-4 ">
+          <img id="buyimg" src="./images/kia seltos 2021.jpeg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 style="font-weight: bold;" class="card-title">Kia Seltos (2021)</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"
+             > Gasoline </span>
+              <i id="gauge"  class="fa-solid fa-gauge-simple-high"></i>
+            <span  id="gauge1" >0-180km/h</span>
+            <i id="gears0" class="fa-solid fa-gears"></i>
+            <span id="gears1" >1.6-liter turbocharged engine</span> </p>
+              <p  id="buypara" >
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </p>
+          <h4 id="buyhead">$21,990</h4>
+          <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+  <div data-aos="fade-down" class="card mb-3" id="buybody">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img id="buyimg" src="./images/Fortuner toyota model 2021.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 style="font-weight: bold;" class="card-title">Fortuner Toyota (2021)</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"> Gasoline </span>
+            <i id="gauge" class="fa-solid fa-gauge-simple-high"></i>
+          <span id="gauge1">0-180km/h</span>
+          <i id="gears0" class="fa-solid fa-gears"></i>
+          <span  id="gears1">4.0-liter V-6 engine</span> </p>
+            <p id="buypara" >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+        <h4 id="buyhead" style="color: black; font-weight: 700;">$4,510</h4>
+        <button  id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-down" class="card mb-3" id="buybody" >
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img id="buyimg" src="./images/Chevrolet blazer 2023.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 style="font-weight: bold;" class="card-title">Chevrolet Blazer (2023)</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"> Gasoline </span>
+            <i id="gauge" class="fa-solid fa-gauge-simple-high"></i>
+          <span id="gauge1" >0-180km/h</span>
+          <i id="gears0" class="fa-solid fa-gears"></i>
+          <span id="gears1" >3.6-liter V-6 engine</span> </p>
+            <p id="buypara">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+        <h4 id="buyhead" >$35,800</h4>
+        <button id="buybtn"  class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-down" class="card mb-3" id="buybody">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img id="buyimg" src="./images/range rover 2023.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 style="font-weight: bold;" class="card-title"> Range Rover (2023)</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span
+           id="gaspump1"> Gasoline </span>
+            <i id="gauge"
+            class="fa-solid fa-gauge-simple-high"></i>
+          <span id="gauge1" >0-180km/h</span>
+          <i id="gears0"
+            class="fa-solid fa-gears"></i>
+          <span id="gears1" >twin-turbo 4.4 -liter v-8 engine</span> </p>
+            <p id="buypara" >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+        <h4  id="buyhead" >$371,475</h4>
+        <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-down" class="card mb-3" id="buybody">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img id="buyimg" src="./images/toyota corolla 2018.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 style="font-weight: bold;" class="card-title">Toyota Corolla (2018)</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1" > Gasoline </span>
+            <i id="gauge"
+            class="fa-solid fa-gauge-simple-high"></i>
+          <span id="gauge1" >0-180km/h</span>
+          <i id="gears0"
+            class="fa-solid fa-gears"></i>
+          <span id="gears1" >1.8-liter four-cylinder engine</span> </p>
+            <p id="buypara" >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+        <h4  id="buyhead" >$21,900</h4>
+        <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-down" class="card mb-3" id="buybody">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img id="buyimg" src="./images/honda civic type R.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 style="font-weight: bold;" class="card-title">Honda Civic (2020)</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1" > Gasoline </span>
+            <i id="gauge"
+            class="fa-solid fa-gauge-simple-high"></i>
+          <span id="gauge1" >0-180km/h</span>
+          <i id="gears0"
+            class="fa-solid fa-gears"></i>
+          <span id="gears1" >2.0-liter four-cylinder engine</span> </p>
+            <p id="buypara" >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+        <h4  id="buyhead" >$23,950</h4>
+        <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div data-aos="fade-down" class="card mb-3" id="buybody" >
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img id="buyimg" src="./images/toyota yaris 2020.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 style="font-weight: bold;" class="card-title">Toyota Yaris (2020)</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1" > Gasoline </span>
+            <i id="gauge"
+            class="fa-solid fa-gauge-simple-high"></i>
+          <span id="gauge1" >0-180km/h</span>
+          <i id="gears0"
+            class="fa-solid fa-gears"></i>
+          <span id="gears1" >1.5-liter four-cylinder engine</span> </p>
+            <p id="buypara" >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+        <h4  id="buyhead" >$22,103</h4>
+        <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-down" class="card mb-3" id="buybody" >
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img id="buyimg" src="./images/Hyundai bayan 2022.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 style="font-weight: bold;" class="card-title">Hyundai Bayon (2022)</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span
+           id="gaspump1"> Gasoline </span>
+            <i id="gauge"
+            class="fa-solid fa-gauge-simple-high"></i>
+          <span id="gauge1" >0-180km/h</span>
+          <i id="gears0"
+            class="fa-solid fa-gears"></i>
+          <span id="gears1" >1.0-liter turbocharged engine</span> </p>
+            <p id="buypara" >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+        <h4  id="buyhead" >$18,496</h4>
+        <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-down" class="card mb-3" id="buybody" >
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img id="buyimg" src="./images/haval f7 2018.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 style="font-weight: bold;" class="card-title">Haval f7 (2018)</h4>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span
+            id="gaspump1" > Gasoline </span>
+            <i id="gauge"
+            class="fa-solid fa-gauge-simple-high"></i>
+          <span id="gauge1">0-180km/h</span>
+          <i id="gears0" class="fa-solid fa-gears"></i>
+          <span id="gears1" >1.5-liter turbocharged gasoline engine</span> </p>
+            <p id="buypara" >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+        <h4  id="buyhead" >$20,480</h4>
+        <button  id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Buy Now Modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 style="color: red;" class="modal-title" id="exampleModalLabel">Buy Right Now</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="form4">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="name" name="name4" class="form-control" id="name1" placeholder="Enter Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail22" class="form-label">Email address</label>
+              <input type="email" name="email4" class="form-control" id="email4"  placeholder="Enter Your Email" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="tel" class="form-label">Contact Number</label>
+              <input type="tel" name="num4" class="form-control" id="tel"  placeholder="Enter Your Contact Number">
+            </div>
+            <div class="mb-3">
+              <label for="Address" class="form-label">Address</label>
+              <input type="Address" name="add4" class="form-control" id="Address"  placeholder="Enter Your Address">
+            </div>
+            <button style="background-color: red; color: white;" type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- buy2cars -->
+  
+<div id="buy-next" >
+  <div id="buycards1" class="container d-flex justify-content-center align-items-center mt-5 mb-5">
+
+    <div data-aos="flip-right" class="card ms-4 mb-3" id="cards">
+      <img src="./images/kia seltos 2021.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 id="carshead">Kia Seltose <span id="kiaseltose">2021</span>
+        </h4>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h4 class="carprice">$21,990</h4>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"> Gasoline </span><i id="gauge"
+              class="fa-solid fa-gauge-simple-high"></i>
+            <span id="gauge1">0-100km/h</span>
+          </p>
+          <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div data-aos="flip-right" class="card ms-4 mb-3" id="cards">
+      <img src="./images/Fortuner toyota model 2021.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 id="carshead">Fortuner toyota <span id="fortunertoyota">2021</span>
+        </h4>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h4 class="carprice">$4,510</h4>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"> Gasoline </span><i id="gauge"
+              class="fa-solid fa-gauge-simple-high"></i>
+            <span id="gauge1">0-200km/h</span>
+          </p>
+          <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div data-aos="flip-right" class="card ms-4 mb-3" id="cards">
+      <img src="./images/Chevrolet blazer 2023.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 id="carshead">Chevrolet Blazer <span id="chevroletblazer">2023</span>
+        </h4>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h4 class="carprice">$35,800</h4>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"> Gasoline </span><i id="gauge"
+              class="fa-solid fa-gauge-simple-high"></i>
+            <span id="gauge1">0-180km/h</span>
+          </p>
+          <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="buycards2" class="container d-flex justify-content-center align-items-center mt-5 mb-5">
+    <div data-aos="flip-right" class="card ms-4 mb-3" id="cards">
+      <img src="./images/range rover 2023.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 id="carshead">Range Rover <span id="rangerover">2023</span>
+        </h4>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h4 class="carprice">$371,475</h4>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"> Petrol </span><i id="gauge"
+              class="fa-solid fa-gauge-simple-high"></i>
+            <span id="gauge1">0-225km/h</span>
+          </p>
+          <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div data-aos="flip-right" class="card ms-4 mb-3" id="cards">
+      <img src="./images/toyota corolla 2018.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 id="carshead">Toyota Corolla<span id="toyotacorolla">2018</span>
+        </h4>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h4 class="carprice" style="color: red; font-weight: 700;">$21,900</h4>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"> petrol </span><i id="gauge"
+              class="fa-solid fa-gauge-simple-high"></i>
+            <span id="gauge1">0-200km/h</span>
+          </p>
+          <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div data-aos="flip-right" class="card ms-4 mb-3" id="cards">
+      <img src="./images/honda civic type R.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 id="carshead">Honda Civic <span id="hondacivic">2021</span>
+        </h4>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h4 class="carprice">$23,950</h4>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"> Gasoline </span><i id="gauge"
+              class="fa-solid fa-gauge-simple-high"></i>
+            <span id="gauge1">0-272km/h</span>
+          </p>
+          <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="buycards3" class="container d-flex justify-content-center align-items-center mt-5 mb-5">
+    <div data-aos="flip-right" class="card ms-4 mb-3" id="cards">
+      <img src="./images/toyota yaris 2020.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 id="carshead">Toyota Yaris <span id="toyotayaris">2021</span>
+        </h4>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h4 class="carprice">$22,103</h4>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"> Petrol </span><i id="gauge"
+              class="fa-solid fa-gauge-simple-high"></i>
+            <span id="gauge1">0-272km/h</span>
+          </p>
+          <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div data-aos="flip-right" class="card ms-4 mb-3" id="cards">
+      <img src="./images/Hyundai bayan 2022.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 id="carshead">Hyundai Bayon <span id="hyundaibayon">2021</span>
+        </h4>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h4 class="carprice">$18,496</h4>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"> petrol </span><i id="gauge"
+              class="fa-solid fa-gauge-simple-high"></i>
+            <span id="gauge1">0-100km/h</span>
+          </p>
+          <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div data-aos="flip-right" class="card ms-4 mb-3" id="cards">
+      <img src="./images/haval f7 2018.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 id="carshead">Haval F7<span id="havalf7">2021</span>
+        </h4>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h4 class="carprice">$20,480</h4>
+          <p><i id="gaspump" class="fa-solid fa-gas-pump"> </i> <span id="gaspump1"> petrol </span><i id="gauge"
+              class="fa-solid fa-gauge-simple-high"></i>
+            <span id="gauge1">0-100km/h</span>
+          </p>
+          <button id="buybtn" class="btn "  data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<div style="cursor: pointer;" class=" bg-dark ">
+  <footer class="py-3 mt-4">
+    <ul class="nav justify-content-center border-bottom pb-3">
+      <li class="nav-footer"><a href="./index.html" class="nav-link px-2 text-light">Home</a></li>
+      <li class="nav-footer"><a href="./car.html" class="nav-link px-2 text-light">Cars</a></li>
+      <li class="nav-footer"><a href="./sell.html" class="nav-link px-2 text-light">Sell</a></li>
+      <li class="nav-footer"><a href="./buy.html" class="nav-link px-2 text-light ">Buy</a></li>
+      <li class="nav-footer"><a href="./parts.html" class="nav-link px-2 text-light">Parts</a></li>
+      <li class="nav-footer"><a href="./services.html" class="nav-link px-2 text-light">Services</a></li>
+      <li class="nav-footer"><a href="./contact.html" class="nav-link px-2 text-light">Contact</a></li>
+      <li class="nav-footer"><a href="./review.html" class="nav-link px-2 text-light">Review</a></li>
+      <li class="nav-footer"><a href="./About.html" class="nav-link px-2 text-light">About</a></li>
+    </ul>
+    <p class="text-center  text-light">© 2023 Carbreezy, All right reserved</p>
+     <!-- Counter Code START -->
+     <div class="visitorcounter" >
+      <a href="https://www.hitwebcounter.com" target="_blank">
+        <img src="https://hitwebcounter.com/counter/counter.php?page=10561383&style=0009&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites" /></a>   
+    </div>
+     <!-- Continuous Scrolling Ticker -->
+<div id="ticker">
+  <span id="datetime"></span>
+  <span id="location"></span>
+</div>
+  </footer>
+</div>
+
+   <!-- Option 1: Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+   crossorigin="anonymous"></script>
+
+  <script src="./Js/jquery-3.7.1.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
+    integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    offset: 150,
+      delay: 0,
+      duration: 500,
+  });
+
+  jQuery("#form4").validate({
+      rules: {
+        name4: {
+          required: true,
+          minlength: 3,
+
+        },
+        email4: {
+          required: true,
+          email: true,
+        },
+        num4: {
+          required: true,
+          minlength: 11,
+        },
+        add4: {
+          required: true,
+          minlength: 20,
+        },
+      },
+      messages: {
+        name4: {
+          required: "name must be required",
+          minlength: "name must be 3 characters long",
+        },
+        email4: {
+          required: "Email must be required",
+          email: "Please enter a valid email",
+        },
+
+        num4: {
+          required: "tel must be required",
+          minlength: "tel must be 11 characters"
+        },
+        add4: {
+          required: "Address must be required",
+          minlength: "Address must be 20 characters or long"
+        },
+      },
+    })
+
+    // for login
+    var login = document.getElementById("login");
+    var email = document.getElementById("email");
+    var password = document.getElementById("password");
+    login.addEventListener("click", function () {
+      localStorage.setItem("email", email.value);
+      localStorage.setItem("password", password.value);
+    })
+    // for signup
+    var signup = document.getElementById("signup");
+    var name = document.getElementById("name");
+    var email2 = document.getElementById("email2");
+    var password2 = document.getElementById("password2");
+    var password3 = document.getElementById("password3");
+    signup.addEventListener("click", function () {
+      localStorage.setItem("name", name.value);
+      localStorage.setItem("email2", email2.value);
+      localStorage.setItem("password2", password2.value);
+      localStorage.setItem("password3", password3.value);
+
+    })
+  <!-- JavaScript to get date, time, and location -->
+  
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } else {
+        document.getElementById("location").innerHTML = "Geolocation is not supported by this browser.";
+      }
+    }
+
+    function showPosition(position) {
+      var dateTime = new Date().toLocaleString();
+      var location = "Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude;
+      document.getElementById("datetime").innerHTML = dateTime + ' | ';
+      document.getElementById("location").innerHTML = location;
+    }
+
+    getLocation(); // Get location when the page loads
+
+    // Update location every 30 seconds
+    setInterval(getLocation, 30000);
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Where automotive passion meets innovation. We drive the future with cutting-edge technology, providing a seamless and exhilarating experience for every car enthusiast. Discover the journey of excellence in automotive culture at Car Breezy">
+  <meta name="keywords" content="car information|about website|car website|buy car online|sell my car online|best place to sell your car | car selling site|best online car buying sites|online car auction|used car sites|car appraisal online|car value online |online auto sales|car|auto|all about auto">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./phone.css">
+  <link rel="shortcut icon" href="./images/carbreezy_favicon-removebg-preview.png" type="image/x-icon">
+
+  <title>car Breezy</title>
+  <style>
+    
+  </style>
+</head>
+
+<body>
+
+ 
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top text-light">
+  <div class="container-fluid">
+    <img src="./images/logo 1.png" style="height: 110px; width: 120px;" alt="">
+    <button class="navbar-toggler text-light " type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon  "></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bg-dark ">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./car.html">Cars</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light ms-3" href="./sell.html">Sell</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./buy.html">Buy</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./parts.html">Parts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./testimonial.html">Testimonial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light  ms-3" href="./About.html">About</a>
+        </li>
+        </li>
+      </ul>
+      <button type="button" class="btn btn- ms-auto me-2 text-light bg-danger" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">Log
+        In</button>
+      <button type="button" class="btn btn- me-2 text-light bg-danger" data-bs-toggle="modal"
+        data-bs-target="#exampleModal1">Sign
+        Up</button>
+    </div>
+  </div>
+</nav>
+
+<!-- log in Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password">
+          </div>
+          <button id="login" type="submit" class="btn btn- text-light bg-danger">Log In</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  sign up Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="name" class="form-control" id="name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email2" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password2">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="password3">
+          </div>
+
+          <button id="signup" type="submit" class="btn btn- text-light bg-danger">Sign up</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <div class="container" id="about">
+    <h1 style="font-weight: bold;  " class="text-center mb-2  mt-2 display-4">About <span style="color:red;"> Us </span></h1>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+      dolores eligendi tempora consectetur dolorum nesciunt?</p>
+    <p id="para" class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, alias.</p>
+  </div>
+
+  <div id="car-breezy" class="container d-flex justify-content-center align-items-center  mt-5" style="cursor: pointer;">
+    <div class="me-4">
+      <h1 id="about1" >Welcome To <span style="color: red;">Car Breezy</span> </h1>
+      <p>Lorem ipsum dolor sit amet, consectetur facere tenetur facilis magni magnam quasi velit adipisicing elit.
+        Totam ab ut nam magnam quasi architecto, quia quas dignissimos voluptas officiis iure nisi deleniti animi
+        sapiente facere tenetur facilis magni magnam quasi velit.
+      <p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sequi aliquam, ipsum
+        nostrum atque labore architecto nisi alias repudiandae, eius ex provident illo consequatur at excepturi veniam
+        beatae aut inventore.
+      <p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sequi aliquam, ipsum
+        nostrum atque labore architecto nisi alias repudiandae, eius ex provident illo consequatur at excepturi veniam
+        beatae aut inventore.
+      <p>
+    </div>
+    <div data-aos="zoom-in-up" >
+      <img class="about-img1" src="./images/welcome.jpeg" alt="" srcset="">
+    </div>
+  </div>
+
+  <div class="about-cards">
+    <h1 class="text-center mt-5 display-4 " style=" font-weight: bold;">Why You <span style="color: red;"> Choose Us?</span></h1>
+    <div id="choose-card" class="container mt-5 d-flex justify-content-center align-items-center mb-3">
+      <div id="about-card-1" data-aos="flip-right" class="card me-5 bg-dark mb-3">
+        <div class="card-body">
+          <h3  class="card-title text-center">Variety Of Cars</h3>
+          <p class="card-text text-center text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident, cum fuga dolor praesentium suscipit. Quia, debitis ea.</p>
+        </div>
+      </div>
+      <div id="about-card-2" data-aos="flip-right" class="card me-5 bg-dark mb-3" >
+        <div class="card-body">
+          <h3  class="card-title text-center">Competitive Pricing</h3>
+          <p class="card-text text-light text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident, cum fuga dolor praesentium suscipit. Quia, debitis ea.</p>
+        </div>
+      </div>
+      <div id="about-card-3" data-aos="flip-right" class="card me-5 mb-3 bg-dark" >
+        <div class="card-body">
+          <h3  class="card-title text-center">24/7 Support</h3>
+          <p class="card-text text-center text-light ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti provident, cum fuga dolor praesentium suscipit. Quia, debitis ea.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="mission" class="container d-flex align-items-center justify-content-center mt-5" style="cursor: pointer;" >
+    <div class="me-4">
+      <h1 id="mission-h1" >Our <span style="color: red;">Mission</span></h1>
+      <p>Lorem ipsum dolor sit amet, consectetur facere tenetur facilis magni magnam quasi velit adipisicing elit. Totam
+        ab ut nam magnam quasi architecto, quia quas dignissimos voluptas officiis iure nisi deleniti an sapiente facere
+        tenetur facilis magni magnam quasi asi architecto, quia quas dignissimos voluptas officiis iure nisi velit.
+        Totam ab ut nam magnam quasi architecto, quia quas dignissimos voluptas officiis iure nisi deleniti animi
+        sapiente facere tenetur magnam quasi velit.
+      <p>
+      <p>Lorem ipsum dolor sit amet, consectetur facere tenetur facilis magni magnam quasi velit adipisicing elit. Totam
+        ab facere tenetur magnam quasi velit voluptas voluptas officiis iure nisi deleniti animi sapiente facere tenetur magnam quasi velit.
+      <p>
+    </div>
+    <div data-aos="zoom-in-up" class=" me-4">
+      <img class="about-img2" src="./images/mission.jpeg" alt="" srcset="">
+    </div>
+  </div>
+
+  <div id="mis-cards" class="container d-flex justify-content-center align-items-center mt-3">
+    <div id="mission-card-1" class="card me-5 text-center" >
+      <i  class="fa-regular fa-hourglass-half"></i>
+      <div class="card-body text-center">
+        <h4 id="mission-head" style="font-weight: bolder;">Save Time</h4>
+        <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facilis non
+          velit expedita earum. Reprehenderit provident temporibus autem sequi a, dolorem rerum.</p>
+      </div>
+    </div>
+    <div id="mission-card-2" class="card me-5 text-center" >
+      <i  class="fa-solid fa-calculator"></i>
+      <div class="card-body text-center">
+        <h4  id="mission-head" style="font-weight: bolder;">Reduce Your Cost</h4>
+        <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facilis non
+          velit expedita earum. Reprehenderit provident temporibus autem sequi a, dolorem rerum.</p>
+      </div>
+    </div>
+    <div id="mission-card-3" class="card me-5 text-center" >
+      <i  class="fa-solid fa-user"></i>
+      <div class="card-body text-center">
+        <h4  id="mission-head" style="font-weight: bolder;">Increase Reliability</h4>
+        <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facilis non
+          velit expedita earum. Reprehenderit provident temporibus autem sequi a, dolorem rerum.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center mb-5">
+    <h1 class="vision-h1" >Our <span style="color: red;">Vision</span> </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur facere tenetur facilis magni magnam quasi velit adipisicing elit. Totam
+      ab ut nam magnam quasi architecto, quia quas dignissimos voluptas officiis iure nisi deleniti an sapiente facere
+      tenetur facilis magni magnam quasi asi adipisicing elit. Totam ab ut nam magnam quasi architecto, quia quas
+      dignissimos voluptas officiis iure nisi deleniti an sapiente facere tenetur facilis magni magnam quasi as
+      architecto, quia quas dignissimos voluptas officiis iure nisi velit.
+    <p>
+  </div>
+  </div>
+
+
+   <!-- footer -->
+   <div style="cursor: pointer;" class=" bg-dark ">
+    <footer class="py-3 mt-4">
+      <ul class="nav justify-content-center border-bottom pb-3">
+        <li class="nav-footer"><a href="./index.html" class="nav-link px-2 text-light">Home</a></li>
+        <li class="nav-footer"><a href="./car.html" class="nav-link px-2 text-light">Cars</a></li>
+        <li class="nav-footer"><a href="./sell.html" class="nav-link px-2 text-light">Sell</a></li>
+        <li class="nav-footer"><a href="./buy.html" class="nav-link px-2 text-light ">Buy</a></li>
+        <li class="nav-footer"><a href="./parts.html" class="nav-link px-2 text-light">Parts</a></li>
+        <li class="nav-footer"><a href="./services.html" class="nav-link px-2 text-light">Services</a></li>
+        <li class="nav-footer"><a href="./contact.html" class="nav-link px-2 text-light">Contact</a></li>
+        <li class="nav-footer"><a href="./review.html" class="nav-link px-2 text-light">Review</a></li>
+        <li class="nav-footer"><a href="./About.html" class="nav-link px-2 text-light">About</a></li>
+      </ul>
+      <p class="text-center  text-light">© 2023 CarBreezy, All right reserved</p>
+       <!-- Counter Code START -->
+       <div class="visitorcounter" >
+        <a href="https://www.hitwebcounter.com" target="_blank">
+          <img src="https://hitwebcounter.com/counter/counter.php?page=10561383&style=0009&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites" /></a>   
+      </div>
+       <!-- Continuous Scrolling Ticker -->
+  <div id="ticker">
+    <span id="datetime"></span>
+    <span id="location"></span>
+  </div>
+    </footer>
+  </div>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 150,
+      delay: 0,
+      duration: 500,
+    });
+      // for login
+      var login = document.getElementById("login");
+    var email = document.getElementById("email");
+    var password = document.getElementById("password");
+    login.addEventListener("click", function () {
+      localStorage.setItem("email", email.value);
+      localStorage.setItem("password", password.value);
+    })
+    // for signup
+    var signup = document.getElementById("signup");
+    var name = document.getElementById("name");
+    var email2 = document.getElementById("email2");
+    var password2 = document.getElementById("password2");
+    var password3 = document.getElementById("password3");
+    signup.addEventListener("click", function () {
+      localStorage.setItem("name", name.value);
+      localStorage.setItem("email2", email2.value);
+      localStorage.setItem("password2", password2.value);
+      localStorage.setItem("password3", password3.value);
+
+    })
+    <!-- JavaScript to get date, time, and location -->
+  
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } else {
+        document.getElementById("location").innerHTML = "Geolocation is not supported by this browser.";
+      }
+    }
+
+    function showPosition(position) {
+      var dateTime = new Date().toLocaleString();
+      var location = "Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude;
+      document.getElementById("datetime").innerHTML = dateTime + ' | ';
+      document.getElementById("location").innerHTML = location;
+    }
+
+    getLocation(); // Get location when the page loads
+
+    // Update location every 30 seconds
+    setInterval(getLocation, 30000);
+
+  </script>
+</body>
+
+</html>

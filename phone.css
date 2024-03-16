@@ -1,0 +1,1829 @@
+@media(max-width:1400px) {
+   #about1 {
+      font-size: 52px;
+  }
+   #abouthead {
+      font-size: 50px;
+   }
+   .about-img1{
+      width: 31rem;
+   }
+   .about-img2{
+      width: 35rem;
+   }
+}
+
+@media(max-width:1300px) {
+   .text1 h2 {
+      margin-top: 155px;
+
+   }
+   #allcars #img1 {
+      width: 352px;
+      height: 297px;
+  }
+  #allcars #img2 {
+   width: 352px;
+   height: 297px;
+}
+#allcars #img3 {
+   width: 352px;
+   height: 297px;
+}
+#allcars #img4 {
+   width: 352px;
+   height: 297px;
+}
+#allcars #img5 {
+   width: 352px;
+   height: 297px;
+}
+#allcars #img6 {
+   width: 352px;
+   height: 297px;
+}
+  
+}
+
+@media(max-width:1200px) {
+   #buybody {
+      width: 900px;
+      margin-left: 50px;
+   }
+   .sell-img1 {
+      margin-left: 100px;
+      width: 900px;
+      height: 400px;
+   }
+   #about1 {
+      font-size: 40px;
+  }
+   .about-img1{
+      width: 28rem;
+   }
+   .about-img2{
+      width: 32rem;
+   }
+   #card1 {
+      width: 28rem;
+      border: none;
+   }
+   
+   #card2 {
+      width: 20rem;
+      border: none;
+   }
+   
+   #card3 {
+      width: 26rem;
+      border: none;
+   }
+   
+   #card4 {
+      width: 21rem;
+      border: none;
+   }
+   #contact-text{
+      font-size: 15px;
+   }
+   #allcars #img4 {
+      width: 311px;
+   }
+
+   #allcars #img5 {
+      width: 313px;
+   }
+
+   #details1 {
+      margin-left: 118px;
+   }
+
+   #details2 {
+      margin-left: 118px;
+   }
+
+   #details3 {
+      margin-left: 118px;
+   }
+
+   #details4 {
+      margin-left: 118px;
+   }
+
+   #details5 {
+      margin-left: 118px;
+   }
+
+   #details6 {
+      margin-left: 118px;
+   }
+
+   #details7 {
+      margin-left: 118px;
+   }
+
+   #details8 {
+      margin-left: 118px;
+   }
+
+   #details9 {
+      margin-left: 118px;
+   }
+
+   #kiaseltose {
+      margin-left: 73px;
+   }
+
+   #fortunertoyota {
+      margin-left: 23px;
+   }
+
+   #chevroletblazer {
+      margin-left: 18px;
+   }
+
+   #rangerover {
+      margin-left: 43px;
+   }
+
+   #toyotacorolla {
+      margin-left: 35px;
+   }
+
+   #hondacivic {
+      margin-left: 71px;
+   }
+
+   #toyotayaris {
+      margin-left: 60px;
+   }
+
+   #hyundaibayon {
+      margin-left: 25px;
+   }
+
+   #havalf7 {
+      margin-left: 98px;
+   }
+
+   #partcard {
+      height: 30rem;
+
+   }
+
+   #contactimg {
+      width: 450px;
+      height: 440px;
+   }
+
+   #contacthead {
+      font-size: 49px;
+   }
+
+   #aboutimg {
+      width: 440px;
+      height: 400px;
+   }
+}
+
+@media(max-width:1100px) {
+   #allcars #img1 {
+      width: 305px;
+      height: 297px;
+  }
+  #allcars #img2 {
+   width: 305px;
+   height: 297px;
+}
+#allcars #img3 {
+   width: 305px;
+   height: 297px;
+}
+#allcars #img4 {
+   width: 305px;
+   height: 297px;
+}
+#allcars #img5 {
+   width: 305px;
+   height: 297px;
+}
+#allcars #img6 {
+   width: 305px;
+   height: 297px;
+}
+  
+   #buybody {
+      width: 900px;
+      margin-left: 40px;
+   }
+   .sell-img1 {
+      margin-left: 70px;
+      width: 800px;
+      height: 400px;
+   }
+   #sellpara{
+      font-size: 15px;
+   }
+   .nav-item a {
+      font-size: 18px;
+   }
+
+   .hero .text h1 {
+      font-size: 85px;
+   }
+
+   .hero .text h1 span {
+      font-size: 85px;
+   }
+
+   #para0 {
+      font-size: 14px;
+   }
+
+   .text1 h2 {
+      margin-top: 168px;
+
+   }
+}
+
+@media(max-width:995px) {
+   #buybody {
+      height: 280px;
+      width: 700px;
+      margin-left: 1px;
+   }
+   .sell-img1 {
+      margin-left: 80px;
+      width: 646px;
+      height: 373px;
+  }
+   #sell-form-1-img{
+      height: 62vh;
+      width: 60vw;
+      margin-top: 12px;
+   }
+   #sell-car{
+      font-size: 45px;
+   }
+   #about1 {
+      font-size: 45px;
+  }
+  #car-breezy{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+   .about-img1{
+      width: 35rem;
+   }
+   #sellform{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   #seller-form{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .sell-form-1{
+      height: 105vh;
+      width: 70vw;
+   }
+   #sell-form-1-img{
+      width: 70vw;
+     
+   }
+   .sell-form-2{
+      
+      width: 70vw;
+   }
+   #sell-form-2-img{
+      height: 62vh;
+      width: 70vw;
+   }
+   #mission{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .about-img2{
+      width: 39rem;
+   }
+   #mission-head{
+      font-size: 17px;
+   }
+   #kiaseltose {
+      margin-left: 124px;
+   }
+
+   #havalf7 {
+      margin-left: 34px;
+      font-size: 14px;
+   }
+
+   #hyundaibayon {
+      margin-left: 25px;
+      font-size: 14px;
+   }
+
+   #gauge {
+      font-size: 14px;
+   }
+
+   .carprice {
+      font-size: 19px;
+   }
+
+   #carshead {
+      font-size: 18px;
+   }
+
+   #details1 {
+      margin-left: 120px;
+   }
+
+   #details2 {
+      margin-left: 119px;
+   }
+
+   #details3 {
+      margin-left: 116px;
+   }
+
+   #details4 {
+      margin-left: 120px;
+   }
+
+   #details5 {
+      margin-left: 113px;
+   }
+
+   #details6 {
+      margin-left: 115px;
+   }
+
+   #details7 {
+      margin-left: 19px;
+   }
+
+   #details8 {
+      margin-left: 32px;
+   }
+
+   #details9 {
+      margin-left: 35px;
+   }
+
+   #contactimg {
+      width: 450px;
+      height: 437px;
+   }
+
+   #contacthead {
+      font-size: 47px;
+   }
+
+   #contacthead1 {
+      font-size: 47px;
+   }
+
+   #abouthead {
+      font-size: 40px;
+   }
+
+   #aboutimg {
+      width: 450px;
+      height: 407px;
+   }
+}
+
+@media(max-width:991px) {
+   #allcars #img1 {
+      width: 290px;
+      height: 270px;
+  }
+  #allcars #img2 {
+   width: 290px;
+   height: 270px;
+}
+#allcars #img3 {
+   width: 290px;
+      height: 270px;
+}
+#allcars #img4 {
+   width: 290px;
+   height: 270px;
+}
+#allcars #img5 {
+   width: 290px;
+   height: 270px;
+}
+#allcars #img6 {
+   width: 290px;
+      height: 270px;
+}
+   .navbar-light .navbar-toggler-icon {
+      background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}; 
+   
+   .sell-img1 {
+      margin-left: 75px;
+      width: 646px;
+      height: 373px;
+  }
+  #sellpara{
+   display: none;
+  }
+   .navbar {
+      height: 15vh;
+   }
+   .text1 h1 {
+      font-weight: bold;
+      font-size: 45px;
+   }
+
+   #allcars #img1 {
+      width: 300px;
+      height: 290px;
+   }
+
+   #allcars #img2 {
+      width: 300px;
+      height: 290px;
+   }
+
+   #allcars #img3 {
+      width: 300px;
+      height: 290px;
+   }
+
+   #allcars #img4 {
+      width: 300px;
+      height: 290px;
+   }
+
+   #allcars #img5 {
+      width: 300px;
+      height: 290px;
+   }
+
+   #allcars #img6 {
+      width: 300px;
+      height: 290px;
+   }
+
+   #cards {
+      width: 40rem;
+      height: 28rem;
+
+   }
+   #gaspump1 {
+      font-size: 13px;
+  }
+  #gauge1 {
+   font-size: 13px;
+}
+#kiaseltose {
+  display: none;
+}
+#fortunertoyota {
+   display: none;
+}
+
+#chevroletblazer {
+   display: none;
+}
+
+#rangerover {
+   display: none;
+}
+
+#toyotacorolla {
+   display: none;
+}
+#hondacivic {
+   display: none;
+}
+#toyotayaris {
+   display: none;
+}
+
+#hyundaibayon {
+   display: none;
+}
+
+#havalf7 {
+   display: none;
+}
+
+   #details1 {
+      margin-left: 45px;
+   }
+
+   #details2 {
+      margin-left: 45px;
+   }
+
+   #details3 {
+      margin-left: 45px;
+   }
+
+   #details4 {
+      margin-left: 45px;
+   }
+
+   #details5 {
+      margin-left: 45px;
+   }
+
+   #details6 {
+      margin-left: 45px;
+   }
+
+   #details7 {
+      margin-left: 38px;
+   }
+
+   #details8 {
+      margin-left: 38px;
+   }
+
+   #details9 {
+      margin-left: 38px;
+   }
+
+   #contactimg {
+      width: 400px;
+      height: 437px;
+   }
+
+   #partcard {
+      height: 31rem;
+   }
+
+   #contacthead {
+      font-size: 35px;
+   }
+
+   #contacthead1 {
+      font-size: 41px;
+   }
+
+   #abouthead {
+      font-size: 31px;
+   }
+
+   #aboutimg {
+      width: 400px;
+      height: 407px;
+   }
+   .card-text{
+      font-size: 12px;
+   }
+   
+   #toyotayaris {
+    margin-left: 11px;
+    font-size: 14px;
+ }
+}
+@media(max-width:920px){
+   #all-car{
+      margin-top: 15px;
+   }
+   #card1 {
+      width: 22rem;
+      border: none;
+   }
+   
+   #card2 {
+      width: 25rem;
+      border: none;
+   }
+   
+   #card3 {
+      width: 24rem;
+      border: none;
+   }
+   
+   #card4 {
+      width: 22rem;
+      border: none;
+   }
+   #contact-text{
+      font-size: 12px;
+   }
+   #allcars #img1 {
+      width: 250px;
+      height: 290px;
+   }
+
+   #allcars #img2 {
+      width: 250px;
+      height: 290px;
+   }
+
+   #allcars #img3 {
+      width: 250px;
+      height: 290px;
+   }
+
+   #allcars #img4 {
+      width: 250px;
+      height: 290px;
+   }
+
+   #allcars #img5 {
+      width: 250px;
+      height: 290px;
+   }
+
+   #allcars #img6 {
+      width: 250px;
+      height: 290px;
+   }
+   #contact-page{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .contact-body{
+      width: 700px;
+   }
+   #iframe{
+      width: 700px;
+      height: 17rem;
+   }
+   
+}
+@media(max-width:770px){
+     #ticker{
+      font-size: 14px;
+    } 
+   #buy-first{
+      display: none;
+   }
+   #buy-next{
+      display: block;
+   }
+   #buybtn{
+      font-size: 18px;
+   }
+   #buybody {
+      height: 280px;
+      width: 590px;
+      margin-left: 1px;
+   }
+   .sell-img1 {
+      margin-left: 33px;
+      width: 610px;
+      height: 373px;
+  }
+   #allcars #img1 {
+      width: 230px;
+      height: 250px;
+   }
+
+   #allcars #img2 {
+      width: 230px;
+      height: 250px;
+   }
+
+   #allcars #img3 {
+      width: 230px;
+      height: 250px;
+   }
+
+   #allcars #img4 {
+      width: 230px;
+      height: 250px;
+   }
+
+   #allcars #img5 {
+      width: 230px;
+      height: 250px;
+   }
+
+   #allcars #img6 {
+      width: 230px;
+      height: 250px;
+   }
+   #cards {
+      width: 45rem;
+      height: 25rem;
+
+   }
+   #carshead{
+      font-size: 15px;
+   }
+   #details1 {
+      margin-left: 67px;
+      font-size: 12px;
+   }
+   #details2 {
+      margin-left: 67px;
+      font-size: 12px;
+   }
+   #details3 {
+      margin-left: 57px;
+      font-size: 12px;
+   }
+   #details4 {
+      margin-left: 65px;
+      font-size: 12px;
+   }
+   #details5 {
+      margin-left: 72px;
+      font-size: 12px;
+   }
+   #details6 {
+      margin-left: 66px;
+      font-size: 12px;
+   }
+   #details7 {
+      margin-left: 51px;
+      font-size: 12px;
+   }
+   #details8 {
+      margin-left: 58px;
+      font-size: 12px;
+   }
+   #details9 {
+      margin-left: 59px;
+      font-size: 12px;
+   }
+   #gaspump{
+      font-size: 12px;
+   }
+   #gaspump1{
+      font-size: 12px;
+   }
+   #gauge{
+      font-size: 12px;
+   }
+   #gauge1{
+      font-size: 12px;
+   }
+   #contactimg{
+     display: none;
+   }
+   #contacthead{
+      text-align: center;
+      font-size:55px;
+   }
+   #contacthead1{
+      text-align: center;
+      font-size:48px ;
+   }
+    #contactbtn{
+      margin-left: 261px;
+    }
+    #reviewcard{
+      margin-left: 165px;
+      margin-top: 12px;
+    }
+    #aboutimg{
+      display: none;
+    }
+    #abouthead{
+      text-align: center;
+      font-size:48px ;
+    }
+    #aboutbtn{
+    margin-left: 261px;
+    }
+    .container{
+      max-width: 720px;
+    }
+
+
+}
+@media(max-width:730px){
+   .about-img1{
+      width: 28rem;
+   }
+   .about-img2{
+      width: 31rem;
+   }
+   #choose-card{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   #mis-cards{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .contact-body{
+      width: 600px;
+   }
+   #iframe{
+      width: 600px;
+      height: 17rem;
+   }
+   #allcars #img1 {
+      width: 210px;
+      height: 231px;
+   }
+
+   #allcars #img2 {
+      width: 210px;
+      height: 231px;
+   }
+
+   #allcars #img3 {
+      width: 210px;
+      height: 231px;
+   }
+
+   #allcars #img4 {
+      width: 210px;
+      height: 231px;
+   }
+
+   #allcars #img5 {
+      width: 210px;
+      height: 231px;
+   }
+
+   #allcars #img6 {
+      width: 210px;
+      height: 231px;
+   }
+}
+@media(max-width:720px){
+
+   #card1 {
+      width: 22rem;
+      border: none;
+   }
+   
+   #card2 {
+      width: 22rem;
+      border: none;
+   }
+   
+   #card3 {
+      width: 22rem;
+      border: none;
+   }
+   
+   #card4 {
+      width: 22rem;
+      border: none;
+   }
+   #contact-text{
+      font-size: 10px;
+   }
+   #details1 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details2 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details3 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details4 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details5 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details6 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details7 {
+      margin-left: 43px;
+      font-size: 12px;
+   }
+   #details8 {
+      margin-left: 43px;
+      font-size: 12px;
+   }
+   #details9 {
+      margin-left: 43px;
+      font-size: 12px;
+}
+}
+@media (max-width:670px){
+   #allcars #img1 {
+      width: 184px;
+      height: 191px;
+   }
+
+   #allcars #img2 {
+      width: 184px;
+      height: 191px;
+   }
+
+   #allcars #img3 {
+      width: 184px;
+      height: 191px;
+   }
+
+   #allcars #img4 {
+      width: 184px;
+      height: 191px;
+   }
+
+   #allcars #img5 {
+      width: 184px;
+      height: 191px;
+   }
+
+   #allcars #img6 {
+      width: 184px;
+      height: 191px;
+   }
+   #details1 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details2 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details3 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details4 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details5 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details6 {
+      margin-left: 49px;
+      font-size: 12px;
+   }
+   #details7 {
+      margin-left: 43px;
+      font-size: 12px;
+   }
+   #details8 {
+      margin-left: 43px;
+      font-size: 12px;
+   }
+   #details9 {
+      margin-left: 43px;
+      font-size: 12px;
+   }
+   #aboutbtn{
+      margin-left: 233px;
+      }
+      #contactbtn{
+         margin-left: 233px;
+      }
+      #para{
+         font-size: 14px;
+      }
+      #iframe{
+         width: 550px;
+      }
+}
+@media(max-width:650px){
+   .sell-img1 {
+      margin-left: 40px;
+      width: 540px;
+      height: 373px;
+  }
+   .contact-body{
+      width: 500px;
+   }
+   #contact1head {
+      font-size: 46px;
+  }
+   #iframe{
+      width: 500px;
+      height: 17rem;
+   }
+   #details1 {
+      margin-left: 44px;
+      font-size: 12px;
+   }
+   #details2 {
+      margin-left: 44px;
+      font-size: 12px;
+   }
+   #details3 {
+      margin-left: 44px;
+      font-size: 12px;
+   }
+   #details4 {
+      margin-left: 44px;
+      font-size: 12px;
+   }
+   #details5 {
+      margin-left: 44px;
+      font-size: 12px;
+   }
+   #details6 {
+      margin-left: 44px;
+      font-size: 12px;
+   }
+   #details7 {
+      margin-left: 35px;
+      font-size: 12px;
+   }
+   #details8 {
+      margin-left: 35px;
+      font-size: 12px;
+   }
+   #details9 {
+      margin-left: 35px;
+      font-size: 12px;
+}
+}
+
+
+@media(max-width:640px){
+   #details1 {
+      margin-left: 37px;
+      font-size: 12px;
+   }
+   #details2 {
+      margin-left: 37px;
+      font-size: 12px;
+   }
+   #details3 {
+      margin-left: 37px;
+      font-size: 12px;
+   }
+   #details4 {
+      margin-left: 37px;
+      font-size: 12px;
+   }
+   #details5 {
+      margin-left: 37px;
+      font-size: 12px;
+   }
+   #details6 {
+      margin-left: 37px;
+      font-size: 12px;
+   }
+   #details7 {
+      margin-left: 35px;
+      font-size: 12px;
+   }
+   #details8 {
+      margin-left: 35px;
+      font-size: 12px;
+   }
+   #details9 {
+      margin-left: 35px;
+      font-size: 12px;
+}}
+@media(max-width:630px){
+   .sell-img1 {
+      margin-left: 20px;
+      width: 540px;
+      height: 373px;
+  }
+   #details7 {
+      margin-left: 30px;
+      font-size: 12px;
+   }
+   #details8 {
+      margin-left: 30px;
+      font-size: 12px;
+   }
+   #details9 {
+      margin-left: 30px;
+      font-size: 12px;
+}}
+@media(max-width:600px){
+   .sell-img1 {
+      margin-left: 20px;
+      width: 500px;
+      height: 360px;
+  }
+   .text1 h1{
+ font-size: 40px;
+   }
+   .hero .text h4 {
+      font-size: 22px;
+  }
+   .hero .text h1 {
+      font-size: 75px;
+   }
+   .hero .text h1 span {
+      font-size: 75px;
+   }
+   #allcars #img1 {
+      width: 152px;
+      height: 171px;
+   }
+
+   #allcars #img2 {
+      width: 152px;
+      height: 171px;
+   }
+
+   #allcars #img3 {
+      width: 152px;
+      height: 171px;
+   }
+
+   #allcars #img4 {
+      width: 152px;
+      height: 171px;
+   }
+
+   #allcars #img5 {
+      width: 152px;
+      height: 171px;
+   }
+
+   #allcars #img6 {
+      width: 152px;
+      height: 171px;
+   }
+   #details1{
+      font-size: 10px;
+      margin-left: 35px;
+   }
+   #details2{
+      font-size: 10px;
+      margin-left: 35px;
+   }
+   #details3{
+      font-size: 10px;
+      margin-left: 35px;
+   }
+   #details4{
+      font-size: 10px;
+      margin-left: 35px;
+   }
+   #details5{
+      font-size: 10px;
+      margin-left: 35px;
+   }
+   #details6{
+      font-size: 10px;
+      margin-left: 35px;
+   }
+   #details7{
+      font-size: 10px;
+      margin-left: 22px;
+   }
+   #details8{
+      font-size: 10px;
+      margin-left: 22px;
+   }
+   #details9{
+      font-size: 10px;
+      margin-left: 22px;
+   }
+   #gaspump1 {
+      font-size: 9px;
+  }
+  #gauge1 {
+   font-size: 9px;
+}
+   #partcard {
+      width: 30rem;
+      height: 20rem;
+   }
+   #partimg{
+      height: 136px;
+   }
+   #partpara{
+      display: none;
+   }
+   #partbtn{
+      font-size:15px ;
+   }
+   #contactbtn{
+      margin-left:207px ;
+   }
+   #aboutbtn{
+      margin-left: 190px;
+   }
+   #reviewcard{
+      margin-left:133px ;
+   }
+   #paraname{
+      font-size: 22px;
+   }
+   #para{
+      display: none;
+   }
+}
+@media(max-width:570px){
+
+   .contact-body{
+      width: 400px;
+   }
+  
+   #iframe{
+      width: 350px;
+      height: 17rem;
+   }
+   #reviewcard{
+      margin-left:115px ;
+   }
+   #contactbtn{
+      margin-left:185px ;
+   }
+   #aboutbtn{
+      margin-left: 170px;
+   }
+   #details1{
+      font-size: 10px;
+      margin-left: 25px;
+   }
+   #details2{
+      font-size: 10px;
+      margin-left: 25px;
+   }
+   #details3{
+      font-size: 10px;
+      margin-left: 25px;
+   }
+   #details4{
+      font-size: 10px;
+      margin-left: 25px;
+   }
+   #details5{
+      font-size: 10px;
+      margin-left: 25px;
+   }
+   #details6{
+      font-size: 10px;
+      margin-left: 25px;
+   }
+   #details7{
+      font-size: 10px;
+      margin-left: 15px;
+   }
+   #details8{
+      font-size: 10px;
+      margin-left: 15px;
+   }
+   #details9{
+      font-size: 10px;
+      margin-left: 15px;
+   }
+   #iframe{
+      width: 450px;
+   }
+}
+.contactbody{
+   width: 27rem;
+}
+@media(max-width:560px){
+   .sell-img1 {
+      margin-left: 30px;
+      width: 430px;
+      height: 320px;
+  }
+   #about1 {
+      font-size: 34px;
+  }
+   #contact-icons{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   #contact-text {
+      font-size: 15px;
+  }
+   #parts-card1{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   #partpara{
+      display: block;
+   }
+   #partcard{
+      height: 27rem;
+      width: 23rem;
+   }
+   #parts-card2{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   #partimg{
+      height: 12rem;
+   }
+   #buycards1{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   #cards{
+      height: 30rem;
+      width: 23rem;
+   }
+   #buycards2{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   #buycards3{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   #details1 {
+      font-size: 15px;
+      margin-left: 181px;
+  }
+  #details2 {
+   font-size: 15px;
+   margin-left: 181px;
+}
+#details3 {
+   font-size: 15px;
+   margin-left: 181px;
+}
+#details4 {
+   font-size: 15px;
+   margin-left: 181px;
+}
+#details5 {
+   font-size: 15px;
+   margin-left: 181px;
+}
+#details6 {
+   font-size: 15px;
+   margin-left: 181px;
+}
+#details7 {
+   font-size: 15px;
+   margin-left: 181px;
+}
+   #details8 {
+      font-size: 15px;
+      margin-left: 181px;
+  }
+  #details9 {
+   font-size: 15px;
+   margin-left: 181px;
+}
+#carshead{
+   font-size: 25px;
+}
+.carprice {
+   font-size: 23px;
+}
+  #gauge{
+   font-size: 18px;
+  }
+  #gauge1{
+   font-size: 18px;
+  }
+  #gaspump{
+   font-size: 18px;
+  }
+  #gaspump1{
+   font-size: 18px;
+  }
+  #kiaseltose{
+   display: inline;
+   font-size: 18px;
+  }
+  #fortunertoyota {
+   display: inline;
+   font-size: 18px;
+   margin-left: 80px;
+}
+
+#chevroletblazer {
+   margin-left: 70px;
+   display: inline;
+   font-size: 18px;
+}
+
+#rangerover {
+   margin-left: 100px;
+   display: inline;
+   font-size: 18px;
+}
+
+#toyotacorolla {
+   margin-left: 90px;
+   display: inline;
+   font-size: 18px;
+}
+
+#hondacivic {
+   margin-left: 110px;
+   display: inline;
+   font-size: 18px;
+}
+
+#toyotayaris {
+   margin-left: 110px;
+   display: inline;
+   font-size: 18px;
+}
+
+#hyundaibayon {
+   margin-left: 70px;
+   display: inline;
+   font-size: 18px;
+}
+
+#havalf7 {
+   margin-left: 150px;
+   display: inline;
+   font-size: 18px;
+}
+#allcars{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#allcars #img1 {
+   width: 350px;
+   height: 230px;
+}
+
+#allcars #img2 {
+   width: 350px;
+   height: 230px;
+}
+
+#allcars #img3 {
+   width: 350px;
+   height: 230px;
+}
+
+#allcars #img4 {
+   width: 350px;
+   height: 230px;
+}
+
+#allcars #img5 {
+   width: 350px;
+   height: 230px;
+}
+
+#allcars #img6 {
+   width: 350px;
+   height: 230px;
+}
+#myhead{
+   font-size: 52px;
+}
+}
+
+@media(max-width:490px){
+
+   #ticker{
+   font-size: 10px;
+  }
+  
+   .sell-img1 {
+      margin-left: 17px;
+      width: 400px;
+      height: 300px;
+  }
+  #sell-car {
+   font-size: 31px;
+}
+#sell-h1 {
+   font-size: 25px;
+}
+   .about-img2{
+      width: 28rem;
+   }
+   .vision-h1{
+      font-size: 42px;
+   }
+   #mission-h1{
+      font-size: 42px;
+   }
+   .contact-body{
+      width: 350px;
+   }
+  
+   #iframe{
+      width: 350px;
+      height: 14rem;
+   }
+   #contactbtn {
+      margin-left: 146px;
+  }
+  #contacthead {
+   font-size: 48px;
+}
+#contacthead1 {
+   font-size: 43px;
+}
+#myhead {
+   font-size: 41px;
+}
+#reviewcard {
+   margin-left: 64px;
+}
+#abouthead {
+   font-size: 39px;
+}
+#aboutbtn {
+   margin-left: 127px;
+}
+}
+@media(max-width:431px){
+   .sell-img1 {
+      margin-left: 5px;
+      width: 370px;
+      height: 270px;
+  }
+   /* .sell-form-1{
+   height: 110vh;
+   width: 70vw;
+   }
+   .sell-form-2{
+      height: 110vh;
+      width: 70vw;
+      } */
+   .about-img1{
+      width: 22rem;
+   }
+   .about-img2{
+      width: 22rem;
+   }
+   .text1 h2 {
+      margin-top: 413px;
+  }
+  .text1 h1 {
+   font-size: 32px;
+}
+.hero .text{
+   margin-top: 239px;
+}
+.hero .text h4{
+   font-size: 28px;
+}
+.hero .text h1{
+   font-size: 78px;
+}
+ .para1{
+   font-size: 18px;
+ }
+}
+@media(max-width:391px){
+   
+   .sell-img1 {
+      margin-left: 5px;
+      width: 340px;
+      height: 265px;
+  }
+   #about1 {
+      font-size: 27px;
+  }
+  .about-img1{
+   width: 22rem;
+}
+.about-img2{
+   width: 22rem;
+}
+   .contact-body{
+      width: 300px;
+   }
+   #contact1head {
+      font-size: 37px;
+  }
+   #iframe{
+      width: 300px;
+      height: 14rem;
+   }
+   .text1 h2 {
+      margin-top: 265px;
+   }
+   #cards{
+      height: 32rem;
+      width: 21.4rem;
+   }
+   #details1 {
+      margin-left: 164px;
+  }
+  #details2 {
+   margin-left: 164px;
+}
+#details3 {
+   margin-left: 164px;
+}
+#details4 {
+   margin-left: 164px;
+}
+#details5 {
+   margin-left: 164px;
+}
+#details6 {
+   margin-left: 164px;
+}
+#details7 {
+   margin-left: 164px;
+}
+#details8 {
+   margin-left: 164px;
+}
+#details9 {
+   margin-left: 164px;
+}
+#kiaseltose {
+   margin-left: 73px;
+}
+
+#fortunertoyota {
+   margin-left: 23px;
+}
+
+#chevroletblazer {
+   margin-left: 18px;
+}
+
+#rangerover {
+   margin-left: 43px;
+}
+
+#toyotacorolla {
+   margin-left: 35px;
+}
+
+#hondacivic {
+   margin-left: 71px;
+}
+
+#toyotayaris {
+   margin-left: 60px;
+}
+
+#hyundaibayon {
+   margin-left: 25px;
+}
+
+#havalf7 {
+   margin-left: 98px;
+}
+#partcard{
+   width: 21rem;
+}
+   #reviewcard {
+      margin-left: 17px;
+  }
+  #aboutbtn {
+   margin-left: 94px;
+}
+#contacthead {
+   font-size: 41px;
+}
+#contactbtn {
+   margin-left: 84px;
+}
+}
+@media(max-width:360px){
+   .sell-img1 {
+      margin-left: 5px;
+      width: 327px;
+      height: 258px;
+  }
+   .about-img1{
+      width: 22rem;
+   }
+   .about-img2{
+      width: 22rem;
+   }
+   .contact-body{
+      width: 270px;
+   }
+   #iframe{
+      width: 270px;
+      height: 14rem;
+   }
+   
+   .text1 h1 {
+      font-size: 28px;
+  }
+   #allcars #img1 {
+      width: 320px;
+   }
+   
+   #allcars #img2 {
+      width: 320px;
+   }
+   
+   #allcars #img3 {
+      width: 320px;
+   }
+   
+   #allcars #img4 {
+      width: 320px;
+   }
+   
+   #allcars #img5 {
+      width: 320px;
+   }
+   
+   #allcars #img6 {
+      width: 320px;
+   }
+   #details1 {
+      margin-left: 140px;
+   }
+   #details2 {
+      margin-left: 140px;
+   }
+   #details3 {
+      margin-left: 140px;
+   }
+   #details4 {
+      margin-left: 140px;
+   }
+   #details5 {
+      margin-left: 140px;
+   }
+   #details6 {
+      margin-left: 140px;
+   }
+   #details7 {
+      margin-left: 140px;
+   }
+ #details8 {
+   margin-left: 140px;
+}
+#details9 {
+   margin-left: 140px;
+}
+#chevroletblazer {
+   margin-left: 13px;
+
+}
+#kiaseltose{
+   margin-left: 74px;
+  }
+  #fortunertoyota {
+   margin-left: 26px;
+}
+
+#rangerover {
+   margin-left: 46px;
+}
+
+#toyotacorolla {
+   margin-left: 41px;
+}
+
+#hondacivic {
+   margin-left: 62px;}
+
+#toyotayaris {
+   margin-left: 56px;
+}
+
+#hyundaibayon {
+   margin-left: 28px;
+}
+
+#havalf7 {
+   margin-left: 107px;
+}
+
+   #cards{
+      height: 30rem;
+      width: 19rem;
+   }
+   #partcard{
+      width: 20rem;
+   }
+   #contacthead {
+      font-size: 39px;
+  }
+  #contacthead1 {
+   font-size: 36px;
+}
+   #contactbtn {
+      margin-left: 83px;
+  }
+   #reviewcard {
+      margin-left: 8px;
+  }
+   #abouthead {
+      font-size: 30px;
+  }
+   #aboutbtn {
+      margin-left: 80px;
+  }
+}
+@media(max-width:281px){
+   .sell-img1 {
+      margin-left: 3px;
+      width: 252px;
+      height: 222px;
+  }
+}

@@ -1,0 +1,699 @@
+/* navbar */
+.error {
+   color: red;
+ }
+.navbar {
+   height: 10vh;
+}
+
+.nav-item a {
+   position: relative;
+   font-size: 20px;
+}
+
+ .nav-item a::after {
+   content: '';
+   position: absolute;
+   bottom: 10px;
+   left: 0;
+   width: 0%;
+   height: 2px;
+   background-color: #dd0707;
+   transition: 0.4s;
+}
+
+.nav-item a:hover::after {
+   width: 100%;
+} 
+
+
+/* home section */
+.hero::before {
+   width: 100%;
+   height: 100vh;
+   content: "";
+   background: url("./images/bg-light.jpg");
+   background-size: cover;
+   position: absolute;
+   top: 0;
+   z-index: -3;
+
+}
+.hero .text {
+   cursor: pointer;
+   width: 90%;
+   margin: auto;
+   margin-top: 170px;
+}
+
+.hero .text h4 {
+   font-size: 30px;
+   color: #fff;
+   font-weight: 500;
+   margin-bottom: 10px;
+   margin-left: 7px;
+   line-height: 9%;
+}
+
+.hero .text h1 {
+   color: #fff;
+   font-size: 100px;
+   text-transform: uppercase;
+   font-weight: bolder;
+   line-height: 88%;
+   margin-bottom: 30px;
+}
+
+.hero .text h1 span {
+   color: #dd0707;
+   font-size: 100px;
+   font-weight: bolder;
+}
+
+.para1 {
+   color: #fff;
+   line-height: 7%;
+   margin-left: 4px;
+}
+
+.hero .text .btn {
+   padding: 10px 30px;
+   background-color: #dd0707;
+   text-transform: uppercase;
+   color: #fff;
+   font-weight: bold;
+   border-radius: 30px;
+   border: 2px solid #dd0707;
+   transition: 0.3s;
+   margin-top: 10px;
+}
+
+.hero .text .btn:hover {
+   background-color: transparent;
+}
+
+/* all cars */
+#car-h2{
+   margin-top: 62px;
+}
+.text1 h2 {
+   color: red;
+   font-weight: bold;
+   line-height: 40%;
+   margin-top: 267px;
+   font-size: 45px;
+}
+
+.text1 h1 {
+   font-weight: bold;
+   font-size: 55px;
+}
+
+.text1 #para {
+   line-height: 20%;
+}
+
+#para {
+   line-height: 20%;
+}
+#para0{
+   font-size: 17px;
+}
+#myhead {
+   font-weight: bold;
+   cursor: pointer;
+}
+
+#allcars #img1 {
+   width: 400px;
+   height: 300px;
+}
+#allcars #img2 {
+   width: 400px;
+   height: 300px;
+}
+#allcars #img3 {
+   width: 400px;
+   height: 300px;
+}
+#allcars #img4 {
+   width: 400px;
+   height: 300px;
+}
+#allcars #img5 {
+   width: 400px;
+   height: 300px;
+}
+#allcars #img6 {
+   width: 400px;
+   height: 300px;
+}
+
+/* buy cars */
+#buy-next{
+   display: none;
+}
+#kiaseltose {
+   margin-left: 120px;
+   font-size: 18px;
+   border: 1px dashed red;
+   border-radius: 9px;
+   padding: 3px 9px;
+}
+
+#fortunertoyota {
+   margin-left: 80px;
+   font-size: 18px;
+   border: 1px dashed red;
+   border-radius: 9px;
+   padding: 3px 9px;
+}
+
+#chevroletblazer {
+   margin-left: 70px;
+   font-size: 18px;
+   border: 1px dashed red;
+   border-radius: 9px;
+   padding: 3px 9px;
+}
+
+
+#rangerover {
+   margin-left: 110px;
+   font-size: 18px;
+   border: 1px dashed red;
+   border-radius: 9px;
+   padding: 3px 9px;
+}
+
+#toyotacorolla {
+   margin-left: 100px;
+   font-size: 18px;
+   border: 1px dashed red;
+   border-radius: 9px;
+   padding: 3px 9px;
+}
+
+#hondacivic {
+   margin-left: 120px;
+   font-size: 18px;
+   border: 1px dashed red;
+   border-radius: 9px;
+   padding: 3px 9px;
+}
+
+#toyotayaris {
+   margin-left: 125px;
+   font-size: 18px;
+   border: 1px dashed red;
+   border-radius: 9px;
+   padding: 3px 9px;
+}
+
+#hyundaibayon {
+   margin-left: 70px;
+   font-size: 18px;
+   border: 1px dashed red;
+   border-radius: 9px;
+   padding: 3px 9px;
+}
+
+#havalf7 {
+   margin-left: 165px;
+   font-size: 18px;
+   border: 1px dashed red;
+   border-radius: 9px;
+   padding: 3px 9px;
+}
+
+.carprice {
+   color: red;
+   font-weight: 700;
+}
+#carshead{
+   font-size: 22px ;
+}
+
+#details1 {
+   color: white;
+   background-color: black;
+   margin-left: 175px;
+}
+
+#details2 {
+   color: white;
+   background-color: black;
+   margin-left: 175px;
+}
+
+#details3 {
+   color: white;
+   background-color: black;
+   margin-left: 175px;
+}
+
+#details4 {
+   color: white;
+   background-color: black;
+   margin-left: 175px;
+}
+
+#details5 {
+   color: white;
+   background-color: black;
+   margin-left: 175px;
+}
+
+#details6 {
+   color: white;
+   background-color: black;
+   margin-left: 175px;
+}
+
+#details7 {
+   color: white;
+   background-color: black;
+   margin-left: 175px;
+}
+
+#details8 {
+   color: white;
+   background-color: black;
+   margin-left: 175px;
+}
+
+#details9 {
+   color: white;
+   background-color: black;
+   margin-left: 175px;
+}
+
+#detailsicon {
+   color: red;
+   margin: 2px 3px;
+}
+
+#gaspump {
+   color: rgb(107, 96, 96);
+   font-size: 15px;
+}
+
+#gaspump1 {
+   font-size: 15px;
+}
+
+#gauge {
+   color: rgb(107, 96, 96);
+   font-size: 15px;
+   margin-left: 20px;
+}
+
+#gauge1 {
+   font-size: 15px;
+}
+
+#gears0 {
+   color: rgb(107, 96, 96);
+   font-size: 18px;
+   margin-left: 20px;
+}
+
+#gears1 {
+   font-size: 15px;
+}
+
+#cards {
+   width: 22rem;
+   height: 30rem;
+   box-shadow: 0 0 15px rgba(184, 168, 168, 0.5);
+}
+
+#cards img {
+   height: 14rem;
+}
+
+#video {
+   width: 100%;
+}
+
+/* services card */
+#wrench {
+   font-size: 40px;
+   color: white;
+}
+
+#servicecard {
+   padding-bottom: 70px;
+   cursor: pointer;
+}
+
+#servicehead {
+   font-weight: bold;
+   font-size: 25px;
+}
+
+#caricon {
+   font-size: 40px;
+   color: white;
+}
+
+#gears {
+   font-size: 40px;
+   color: white;
+}
+
+#award {
+   font-size: 40px;
+   color: white;
+}
+
+#cashregister {
+   font-size: 40px;
+   color: white;
+}
+
+#handdollar {
+   font-size: 40px;
+   color: white;
+}
+
+/* contact section */
+#contactimg {
+   width: 640px;
+   height: 400px;
+}
+
+#contacthead {
+   font-weight: bold;
+   font-size: 57px;
+}
+
+#contacthead1 {
+   font-weight: bold;
+   font-size: 57px;
+   color: #fd1313;
+}
+
+#contactbtn {
+   background-color: red;
+   color: white;
+   padding: 5px 25px;
+   font-weight: 500;
+   font-size: 19px;
+   border: 2px solid red;
+}
+
+/* parts section */
+#partcard {
+   width: 22rem;
+   height: 28rem;
+   box-shadow: 0 0 15px rgba(184, 168, 168, 0.5);
+}
+
+#partimg {
+   height: 200px;
+}
+
+#parthead {
+   color: red;
+   font-size: 19px;
+}
+
+#partprice {
+   font-size: 17px;
+   text-decoration: line-through;
+   color: grey;
+}
+
+#partbtn {
+   background-color: red;
+   color: white;
+   padding: 5px 20px;
+   font-weight: 500;
+   font-size: 19px;
+   border: 2px solid red;
+}
+
+#partreview {
+   font-weight: 530;
+   color: red;
+}
+
+/* reviews section */
+#reviewcard {
+   width: 20rem;
+   box-shadow: 0 0 15px rgba(184, 168, 168, 0.5);
+}
+
+#reviewimg {
+   height: 110px;
+   width: 110px;
+   border-radius: 50%;
+   margin: auto;
+   margin-top: 15px;
+   box-shadow: 0 0 15px rgba(200, 15, 15, 0.5);
+}
+
+#reviewhead {
+   font-weight: 700;
+}
+
+#reviewpara {
+   color: #fd1313;
+}
+
+/* about section */
+
+#aboutbtn {
+   background-color: red;
+   color: white;
+   padding: 5px 25px;
+   font-weight: 500;
+   font-size: 19px;
+   border: 2px solid red;
+}
+#aboutimg{
+   width: 640px;
+}
+#abouthead{
+   font-size: 57px;
+}
+
+/* contact pa */
+#contact1btn {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+#card1 {
+   width: 18rem;
+   border: none;
+}
+
+#card2 {
+   width: 18rem;
+   border: none;
+}
+
+#card3 {
+   width: 18rem;
+   border: none;
+}
+
+#card4 {
+   width: 18rem;
+   border: none;
+}
+
+.contact-body {
+   width: 50vw;
+   box-shadow: 0 0 17px grey;
+   padding: 10px;
+}
+
+#contact1head {
+   font-weight: bolder;
+   font-size: 52px;
+   margin-bottom: 12px;
+   color: black;
+}
+
+#iframe {
+   width: 480px;
+   height: 480px;
+   border: 0;
+   margin-left: 10px;
+}
+
+/* buy section */
+#buybody {
+   width: 900px;
+   margin-left: 180px;
+   box-shadow: 0 0 15px rgba(184, 168, 168, 0.5);
+}
+
+#buyimg {
+   height: 17.5rem;
+}
+
+#buypara {
+   color: red;
+   line-height: 1%;
+}
+
+#buyhead {
+   color: black;
+   font-weight: 700;
+}
+
+#buybtn {
+   background-color: red;
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+/* sell portion */
+#sell-h1 {
+   font-size: 37px;
+   color: red;
+}
+
+.sell-img1 {
+   margin-left: 230px;
+   width: 900px;
+   height: 400px;
+}
+
+.sell-form-1 {
+   width: 90vh;
+   box-shadow: 0 0 20px grey;
+   padding: 15px;
+}
+
+.sell-form-1 .btn {
+   background-color: red;
+   color: white;
+   font-weight: 600;
+   font-size: 19px;
+}
+
+#sell-form-1-img {
+   height: 80vh;
+   width: 40vw;
+   box-shadow: 0 0 15px grey;
+}
+.sell-form-2{
+   width: 90vh; 
+    box-shadow: 0 0 20px grey;
+     padding: 15px;
+}
+.sell-form-2 .btn{
+   background-color: red;
+    color: white ;
+    font-weight: 600;
+     font-size: 19px;
+}
+#sell-form-2-img{
+   height: 80vh;
+    width: 40vw;
+    box-shadow: 0 0 15px grey;
+}
+
+/* about */
+#about1 {
+   font-weight: bold;
+   font-size: 57px;
+}
+
+.about-img1 {
+   width: 640px;
+   height: 400px;
+}
+
+.about-cards h3 {
+   font-size: 25px;
+   color: red;
+}
+
+#about-card-1 {
+   width: 18rem;
+}
+
+#about-card-2 {
+   width: 18rem;
+}
+
+#about-card-3 {
+   width: 18rem;
+}
+
+#mission-h1 {
+   font-weight: bold;
+   font-size: 57px;
+}
+
+#mission-card-1 {
+   width: 20rem;
+   border: none;
+}
+
+#mission-card-1 i {
+   font-size: 40px;
+   color: red;
+}
+
+#mission-card-2 {
+   width: 20rem;
+   border: none;
+}
+
+#mission-card-2 i {
+   font-size: 40px;
+   color: red;
+}
+
+#mission-card-3 {
+   width: 20rem;
+   border: none;
+}
+
+#mission-card-3 i {
+   font-size: 40px;
+   color: red;
+}
+
+.about-img2 {
+   width: 640px;
+   height: 400px;
+}
+
+.vision-h1 {
+   font-weight: bold;
+   font-size: 57px;
+}
+
+   /* CSS for ticker */
+   #ticker {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding:  10px;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: ticker-scroll 20s linear infinite;
+    }
+
+    @keyframes ticker-scroll {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    
+.visitorcounter{
+   margin-left: 25px;
+   font-size: 32px;
+}
